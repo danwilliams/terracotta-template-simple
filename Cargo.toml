@@ -22,17 +22,17 @@ lto       = "thin" # Enable link-time optimisation (fast)
 #==============================[  DEPENDENCIES  ]===============================
 
 [dependencies]
-axum               = { version = "0.7.5", features = ["ws"] }
+axum               = { version = "0.8.4", features = ["ws"] }
 include_dir        = { version = "0.7.4", features = ["glob"] }
-parking_lot        = "0.12.3"
-serde              = { version = "1.0.210", features = ["derive"] }
+parking_lot        = "0.12.4"
+serde              = { version = "1.0.219", features = ["derive"] }
 smart-default      = "0.7.1"
 tera               = "1.20.0"
-terracotta         = { version = "0.4.0", features = ["full"] }
+terracotta         = { version = "0.4.2", features = ["full"] }
 tikv-jemallocator  = "0.6.0"
-tokio              = { version = "1.40.0", features = ["fs", "io-std", "io-util", "macros", "rt-multi-thread"] }
-tracing            = "0.1.40"
-utoipa             = { version = "4.2.3", features = ["axum_extras", "chrono", "preserve_order", "indexmap"] }
+tokio              = { version = "1.45.0", features = ["fs", "io-std", "io-util", "macros", "rt-multi-thread"] }
+tracing            = "0.1.41"
+utoipa             = { version = "5.3.1", features = ["axum_extras", "chrono", "preserve_order", "indexmap"] }
 
 #=================================[  LINTS  ]===================================
 
